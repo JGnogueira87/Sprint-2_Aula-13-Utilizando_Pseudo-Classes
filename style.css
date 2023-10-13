@@ -1,0 +1,93 @@
+body{
+    width: 100vh;
+    height: 100vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px;
+    border-radius: 24px;    
+}
+
+.título{
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#label{
+    font-size: 14pt;
+    margin-bottom: 12px;
+}
+
+#input-email{
+    background-color: #E9ECEF;
+    border: solid 2px;
+    border-color: #E9ECEF;
+    border-radius: 8px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    width: 372px;
+    height: 48px;    
+}
+
+input[placeholder]{
+    font-size: 14pt;
+}
+
+#input-email:hover{
+    border: solid 2px;
+    border-color: #dee3e7;
+}
+
+#input-email:focus{
+    border: solid 2px;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+button>p{
+    font-size: 14pt;
+}
+
+.botão{
+    background-color: #1971C2;
+    color: white;
+    width: 400px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botão:hover{
+    background-color: #1864AB;
+}
